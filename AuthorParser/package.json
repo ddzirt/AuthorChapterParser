@@ -2,12 +2,16 @@
   "name": "authorparser",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "homepage": "http://ddzirt.github.io/AuthorChapterParser",
   "scripts": {
+    "build": "npx expo export:web",
     "ts:check": "tsc",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d web-build"
   },
   "dependencies": {
     "@expo/webpack-config": "^19.0.0",
@@ -21,8 +25,9 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "^18.2.33",
-    "@types/react-native": "~0.67.6",
     "@types/react-dom": "^18.2.14",
+    "@types/react-native": "~0.67.6",
+    "gh-pages": "^6.0.0",
     "react-native-typescript-transformer": "^1.2.9",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
