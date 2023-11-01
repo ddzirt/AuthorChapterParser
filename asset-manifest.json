@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/AuthorChapterParser/static/js/main.a8850a1d.js",
+    "static/js/355.d05af28a.js": "/AuthorChapterParser/static/js/355.d05af28a.js",
+    "favicon.ico": "/AuthorChapterParser/favicon.ico",
+    "index.html": "/AuthorChapterParser/index.html",
+    "favicon-32.png": "/AuthorChapterParser/favicon-32.png",
+    "favicon-16.png": "/AuthorChapterParser/favicon-16.png",
+    "manifest.json": "/AuthorChapterParser/manifest.json",
+    "serve.json": "/AuthorChapterParser/serve.json",
+    "main.a8850a1d.js.map": "/AuthorChapterParser/static/js/main.a8850a1d.js.map",
+    "355.d05af28a.js.map": "/AuthorChapterParser/static/js/355.d05af28a.js.map"
+  },
+  "entrypoints": [
+    "static/js/355.d05af28a.js",
+    "static/js/main.a8850a1d.js"
+  ]
+}
